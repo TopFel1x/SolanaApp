@@ -6,7 +6,7 @@
     <title>Solana</title>
 
     <!-- JS -->
-    <script src="script.js" defer></script>
+    <script type="module" src="js/script.js"></script>
   </head>
   <body>
     <header>
@@ -47,6 +47,7 @@
           Use these Solana Foundation and community courses to begin your
           journey into Solana development.
         </p>
+        <!-- Courses insert with JS -->
         <div class="courses"></div>
       </section>
 
@@ -54,6 +55,7 @@
         <h2>Dig deeper.</h2>
         <p>Learn from resources across the greater Solana ecosystem.</p>
 
+        <!-- Resources insert with JS -->
         <div class="resources"></div>
       </section>
 
@@ -61,7 +63,36 @@
         <h2>Go to the source.</h2>
         <p>Read the documentation for Solana and popular tools.</p>
 
-        <div class="docs"></div>
+        <div class="docs">
+          <div class="doc">
+            <div class="doc__top">
+              <h3 class="doc">Solana Docs</h3>
+              <a>
+                <p>View all</p>
+                <img src="img/arrow.png" alt="" />
+              </a>
+            </div>
+            <div class="line"></div>
+            <p>
+              Learn how Solana works and get a high-level understanding of
+              Solana's architecture.
+            </p>
+          </div>
+          <div class="doc">
+            <div class="doc__top">
+              <h3 class="doc">Metaplex Docs</h3>
+              <a>
+                <p>View all</p>
+                <img src="img/arrow.png" alt="" />
+              </a>
+            </div>
+            <div class="line"></div>
+            <p>
+              Learn what you build with Metaplex, make the process of creating
+              and launching NFTs easier.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section class="changelog">
@@ -72,7 +103,7 @@
             newsletter: https://solana.us17.list-manage.com/s... Proposal -
             Priced Compute Units: ...
           </p>
-          <button>Latest episode</button>
+          <a href="/">Latest episode</a>
         </div>
         <div>
           <img src="img/changelog.png" alt="" />
@@ -86,9 +117,12 @@
             Sign up to the newsletter and learn about new resources, new
             commits, new proposals, and more.
           </p>
-          <input type="text" />
-          <button>Sign up</button>
+          <div class="email-wrapper">
+            <input type="email" />
+            <button>Sign up</button>
+          </div>
         </form>
+
         <div>
           <h3>Even more resources</h3>
           <p>
@@ -96,12 +130,12 @@
             both blockchain and technology, our team, and community developers.
           </p>
           <div>
-            <a href="">
-              <p></p>
+            <a href="/">
+              <p>YouTube</p>
               <img src="img/additionally/youtube.png" alt="YouTube" />
             </a>
-            <a href="">
-              <p></p>
+            <a href="/">
+              <p>Podcast</p>
               <img src="img/additionally/podcast.png" alt="Podcast" />
             </a>
           </div>
