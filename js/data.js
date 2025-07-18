@@ -14,7 +14,7 @@ export const courses = [
   {
     name: "Solana Bytes",
     chapters: 14,
-    link: "build-space.png",
+    link: "solana-bytes.png",
   },
   {
     name: "Scaffold Series",
