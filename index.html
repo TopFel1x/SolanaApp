@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solana</title>
+
+    <!-- JS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="js/script.js"></script>
+  </head>
+  <body class="font-[Helvetica]">
+    <header class="bg-black flex justify-center py-[20px]">
+      <div class="w-[70%] flex justify-between items-center">
+        <img class="w-[200px] h-[30px]" src="img/logo.png" alt="Logo Solana" />
+        <nav>
+          <ul class="flex text-[#848895] text-[17px] gap-x-[20px]">
+            <li
+              class="hover:text-[#E6E6E6] transition duration-300 ease-in-out"
+            >
+              <a href="">Learn</a>
+            </li>
+            <li
+              class="hover:text-[#E6E6E6] transition duration-300 ease-in-out"
+            >
+              <a href="">Build</a>
+            </li>
+            <li
+              class="hover:text-[#E6E6E6] transition duration-300 ease-in-out"
+            >
+              <a href="">Network</a>
+            </li>
+            <li
+              class="hover:text-[#E6E6E6] transition duration-300 ease-in-out"
+            >
+              <a href="">Community</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero bg-black">
+        <div class="flex justify-center items-center">
+          <div class="max-w-[560px] leading-none">
+            <h1 class="text-[90px] text-[#fff] capitalize mb-[20px]">
+              Developer resources
+            </h1>
+            <p class="text-[21px] text-[#c4c4c4] mb-[40px] max-w-[400px]">
+              A manual for joining the Solana ecosystem. By builders for
+              builders.
+            </p>
+            <div class="flex gap-x-[10px]">
+              <button
+                class="text-[15px] text-[#000] py-[12px] px-[20px] bg-[#14F195] rounded-[24px] uppercase"
+              >
+                Build now
+              </button>
+              <button
+                class="text-[15px] text-[#fff] py-[12px] px-[20px] rounded-[24px] border uppercase flex gap-x-[12px] items-center"
+              >
+                Stack Exchange
+                <img
+                  class="max-w-[15px] max-h-[18px]"
+                  src="img/hero/btn-img.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <div>
+            <!-- Свечение из Figma -->
+            <div
+              class="absolute w-[650px] h-[660px] bg-[#F087FF]/30 blur-[250px] rounded-[100px] z-0"
+            ></div>
+
+            <!-- Картинка поверх -->
+            <img
+              class="max-w-[600px] relative z-1"
+              src="img/hero/hero-img.png"
+              alt="Hero image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="courses-section bg-[#000] flex justify-center pb-[120px]">
+        <div class="w-[80%] text-[#fff]">
+          <h2 class="text-[38px] mb-[5px]">Get Started</h2>
+          <p class="text-[20px] mb-[30px]">
+            Use these Solana Foundation and community courses to begin your
+            journey into Solana development.
+          </p>
+          <!-- Courses insert with JS -->
+          <div class="courses grid grid-cols-3 gap-[24px]"></div>
+        </div>
+      </section>
+
+      <section
+        class="resources-section bg-[#000] flex justify-center pb-[100px]"
+      >
+        <div class="w-[80%] text-[#fff]">
+          <h2 class="text-[37px] mb-[5px]">Dig deeper.</h2>
+          <p class="text-[20px] text-[#C4C4C4] mb-[30px]">
+            Learn from resources across the greater Solana ecosystem.
+          </p>
+
+          <!-- Resources insert with JS -->
+          <div class="resources grid grid-cols-3 gap-[24px]"></div>
+        </div>
+      </section>
+
+      <section
+        class="documentation bg-[linear-gradient(to_bottom,#19161C,#000000)] pt-[80px] pb-[140px] flex justify-center"
+      >
+        <div class="w-[80%] text-[#fff]">
+          <h2 class="text-[36px] mb-[4px]">Go to the source.</h2>
+          <p class="text-[20px] mb-[48px] text-[#C4C4C4]">
+            Read the documentation for Solana and popular tools.
+          </p>
+
+          <div class="docs flex justify-between gap-x-[40px]">
+            <div class="doc w-[100%]">
+              <div class="doc__top flex justify-between mb-[30px]">
+                <h3 class="doc text-[32px]">Solana Docs</h3>
+                <a
+                  href="/"
+                  class="py-[10px] px-[20px] border rounded-[24px] flex items-center gap-x-[10px]"
+                >
+                  <p class="text-[15px] uppercase">View all</p>
+                  <img class="w-[10px] h-[10px]" src="img/arrow.png" alt="" />
+                </a>
+              </div>
+              <div class="line border border-[#fff]/50 mb-[28px]"></div>
+              <p class="text-[20px] max-w-[400px]">
+                Learn how Solana works and get a high-level understanding of
+                Solana's architecture.
+              </p>
+            </div>
+            <div class="doc w-[100%]">
+              <div class="doc__top flex justify-between mb-[30px]">
+                <h3 class="doc text-[32px]">Metaplex Docs</h3>
+                <a
+                  href="/"
+                  class="py-[10px] px-[20px] border rounded-[24px] flex items-center gap-x-[10px]"
+                >
+                  <p class="text-[15px] uppercase">View all</p>
+                  <img class="w-[10px] h-[10px]" src="img/arrow.png" alt="" />
+                </a>
+              </div>
+              <div class="line border border-[#fff]/50 mb-[28px]"></div>
+              <p class="text-[20px] max-w-[500px]">
+                Learn what you build with Metaplex, make the process of creating
+                and launching NFTs easier.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="changelog bg-[#000] flex justify-center pb-[100px]">
+        <div class="w-[80%] text-[#fff] flex gap-x-[60px]">
+          <div class="max-w-[500px]">
+            <h2 class="text-[40px] mb-[30px]">Solana Changelog</h2>
+            <p class="text-[20px] mb-[60px]">
+              Some more Solana changes from Jacob & Joe. Subscribe to the
+              newsletter: https://solana.us17.list-manage.com/s... Proposal -
+              Priced Compute Units: ...
+            </p>
+            <a
+              href="/"
+              class="text-[15px] uppercase border rounded-[24px] py-[2px] px-[20px]"
+            >
+              Latest episode
+            </a>
+          </div>
+          <div>
+            <img src="img/changelog.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="additionally bg-[#000] flex justify-center pb-[100px]">
+        <div class="w-[80%] text-[#fff] flex gap-x-[20px] justify-between">
+          <form
+            class="max-w-[530px] px-[52px] py-[48px] bg-[#19161C] rounded-[14px]"
+          >
+            <h3 class="text-[36px] mb-[30px]">Solana Developer Update</h3>
+            <p class="text-[18px] text-[#C4C4C4] mb-[80px]">
+              Sign up to the newsletter and learn about new resources, new
+              commits, new proposals, and more.
+            </p>
+            <div class="relative w-[100%]">
+              <input
+                type="email"
+                placeholder="Email"
+                class="w-[100%] py-[22px] pl-[20px] bg-[#0A0A0A] rounded-[800px]"
+              />
+              <button
+                class="absolute right-[10px] top-[10.75px] text-[15px] text-[#000] uppercase py-[12px] px-[20px] bg-[#14F195] rounded-[800px]"
+              >
+                Sign up
+              </button>
+            </div>
+          </form>
+
+          <div
+            class="max-w-[530px] px-[52px] py-[48px] bg-[#19161C] rounded-[14px]"
+          >
+            <h3 class="text-[36px] mb-[30px]">Even more resources</h3>
+            <p class="text-[18px] text-[#C4C4C4] mb-[64px]">
+              More videos, more episodes. Discussions between industry leaders
+              in both blockchain and technology, our team, and community
+              developers.
+            </p>
+            <div class="flex justify-between gap-x-[20px]">
+              <a
+                href="/"
+                class="flex gap-x-[8px] py-[12px] px-[44px] border rounded-[24px] items-center"
+              >
+                <p class="text-[15px] uppercase">YouTube</p>
+                <img
+                  class="max-w-[24px]"
+                  src="img/additionally/youtube.png"
+                  alt="YouTube"
+                />
+              </a>
+              <a
+                href="/"
+                class="flex gap-x-[8px] py-[12px] px-[44px] border rounded-[24px] items-center"
+              >
+                <p class="text-[15px] uppercase">Podcast</p>
+                <img
+                  class="max-w-[24px]"
+                  src="img/additionally/podcast.png"
+                  alt="Podcast"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[#000] py-[80px] flex justify-center">
+      <div class="w-[80%] flex justify-between">
+        <div class="flex flex-col gap-y-[20px]">
+          <img src="img/footer/logo.png" alt="Logo" class="max-w-[30px]" />
+          <h4 class="text-[16px] text-[#fff]">Managed by Solana Foundation</h4>
+          <div class="social-media flex gap-x-[10px]">
+            <img
+              class="py-[2px] px-[5px] bg-[#848895] max-w-[30px] h-auto object-contain"
+              src="img/footer/youtube.png"
+              alt="YouTube"
+            />
+            <img
+              class="py-[2px] px-[5px] bg-[#848895] max-w-[30px] h-auto object-contain"
+              src="img/footer/twitter.png"
+              alt="Twitter"
+            />
+            <img
+              class="py-[2px] px-[5px] bg-[#848895] max-w-[30px] h-auto object-contain"
+              src="img/footer/discord.png"
+              alt="Discord"
+            />
+            <img
+              class="py-[2px] px-[5px] bg-[#848895] max-w-[30px] h-auto object-contain rounded-[12px]"
+              src="img/footer/robot.png"
+              alt="Robot"
+            />
+            <img
+              class="py-[2px] px-[5px] bg-[#848895] max-w-[30px] h-auto object-contain"
+              src="img/footer/github.png"
+              alt="GitHub"
+            />
+            <img
+              class="py-[2px] px-[5px] bg-[#848895] max-w-[30px] h-auto object-contain"
+              src="img/footer/telegram.png"
+              alt="Telegram"
+            />
+          </div>
+          <p class="text-[16px] text-[#848895]">
+            © 2023 Solana Foundation. All rights reserved.
+          </p>
+        </div>
+
+        <div class="right">
+          <nav class="flex justify-between gap-x-[100px]">
+            <ul class="flex flex-col gap-y-[20px]">
+              <li class="text-[16px] text-[#fff]"><strong>SOLANA</strong></li>
+              <li class="text-[14px] text-[#848895]"><a href="#">Grants</a></li>
+              <li class="text-[14px] text-[#848895]">
+                <a href="#">Break Solana</a>
+              </li>
+              <li class="text-[14px] text-[#848895]">
+                <a href="#">Media Kit</a>
+              </li>
+              <li class="text-[14px] text-[#848895]">
+                <a href="#">Careers</a>
+              </li>
+              <li class="text-[14px] text-[#848895]">
+                <a href="#">Disclaimer</a>
+              </li>
+            </ul>
+
+            <ul class="flex flex-col gap-y-[20px]">
+              <li class="text-[16px] text-[#fff]">
+                <strong>GET CONNECTED</strong>
+              </li>
+              <li class="text-[14px] text-[#848895]">
+                <a href="#">Ecosystem</a>
+              </li>
+              <li class="text-[14px] text-[#848895]"><a href="#">Blog</a></li>
+              <li class="text-[14px] text-[#848895]">
+                <a href="#">Newsletter</a>
+              </li>
+            </ul>
+
+            <div class="flex gap-x-[4px]">
+              <img
+                src="img/footer/lang.png"
+                alt="Language"
+                class="max-w-[20px] max-h-[20px] relative top-[2px]"
+              />
+              <p class="text-[16px] text-[#848895]">En</p>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
